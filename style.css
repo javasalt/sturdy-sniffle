@@ -5,13 +5,14 @@ body {
 /*Icon bar-Vertical version*/
 
 .icon-bar {
-    width: 90 px; /* 90px */
+    width: 90 px; /* 90px instead of auto to create column of buttons*/
     background-color: #555; /* Dark-grey background */
-    overflow: auto; /* Overflow due to float */
+    /* overflow: auto; Overflow due to float */
 }
 
 .icon-bar a {
     display: block; /* display vertically */
+    /* float: left; removed to display vertically */
     text-align: center; /* Center-align text */
     width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
     padding: 12px 0; /* Some top and bottom padding */
