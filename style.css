@@ -23,5 +23,5 @@ body {
 }
 
 .active {
-    background-color: #4CAF50; /* Add an active/current color */
+    background-color: #4CAF50 !important; /* Add an active current color and override hover for home*/
 }
