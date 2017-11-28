@@ -5,7 +5,7 @@ body {
 /*Icon bar-Vertical version*/
 
 .icon-bar {
-    width: 90px; /* 90px */
+    width: 90 px; /* 90px */
     background-color: #555; /* Dark-grey background */
     overflow: auto; /* Overflow due to float */
 }
